@@ -1,0 +1,80 @@
+/* use google font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subir{
+    padding: 5px 10px;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+    border:0px solid #fff;
+}
+
+.subir:hover{
+    color:#000;
+    background: #c3c3c3;
+}
+
+.bg-green{
+    background-color: #00e575;
+}
+/* round buttons */
+.btn-round.btn-sm {
+    border-radius: 1rem;
+    padding: .25rem .75rem;
+}
+.btn-round {
+    border-radius: 1.25rem;
+    padding: .375rem 1rem;
+}
+.btn-round.btn-lg {
+    border-radius: 1.5rem;
+    padding: .5rem 1.25rem;
+}
+
+/* icon buttons */
+.btn-icon.btn-sm {
+    padding: .25rem .35rem;
+}
+.btn-icon {
+    padding: .375rem .5rem;
+}
+.btn-icon.btn-lg {
+    padding: .5rem .65rem;
+}
+
+/* ajax alerts */
+.alert-flash {
+    position: fixed;
+    top: 1rem;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+/* datatables style tweaks */
+.dataTables_wrapper table {
+    margin-left: -1.25rem;
+    margin-right: -1.25rem;
+    width: calc(100% + 2.5rem);
+}
+.dataTables_wrapper th, .dataTables_wrapper td {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    vertical-align: middle;
+    /* background-color: #00e575; */
+}
+.dataTables_wrapper tbody tr:hover {
+    background-color: #E9ECEF;
+}
+
+.dataTables_wrapper .dataTables_processing {
+    background: rgb(248, 248, 248);
+    font-weight: bold;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+  }
+
+  .active{
+    font-weight: bold;
+}
